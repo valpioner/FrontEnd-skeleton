@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-strict-di>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>kat</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+
+<body ng-cloak ng-controller="mainCtrl as vm"> 
+
+    <div class="parent-container"> 
+
+        <nav></nav> 
+        <div ui-view class="ui-view-container"></div>
+
+    </div>  
+    
+    <script src="libs/angular.js"></script>
+    <!--<script src="assets/bower_components/angular/angular.min.js"></script>-->
+    <script src="libs/ui-bootstrap-tpls.min.js"></script>
+    <script src="libs/angular-ui-router.min.js"></script>    
+
+    <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2lEiFT6z5OyAV9EHekmi-mn5PBMdEI-A&callback=initMap"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2lEiFT6z5OyAV9EHekmi-mn5PBMdEI-A&libraries=places"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/mainCtrl.js"></script>
+
+    <script src="app/shared/directives/nav/nav.directive.js"></script>
+    <script src="app/shared/directives/map/map.directive.js"></script>    
+
+    <script src="app/home/homeCtrl.js"></script>
+    <script src="app/home/mapCtrl.js"></script>
+    <script src="app/home/mapService.js"></script>
+    <script src="app/home/detailsCtrl.js"></script>
+    
+    <script src="app/search/searchCtrl.js"></script>
+
+    <script src="app/help/helpCtrl.js"></script>
+    
+
+</body>
+
+</html>

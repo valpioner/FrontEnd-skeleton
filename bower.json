@@ -1,0 +1,22 @@
+{
+  "name": "kat",
+  "description": "My first project",
+  "main": "index.js",
+  "authors": [
+    "Valentyn Vasylevskyy"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.1",
+    "angular-bootstrap": "^2.3.2",
+    "angular-ui-router": "^0.3.2"
+  }
+}

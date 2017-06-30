@@ -1,0 +1,33 @@
+@color-bg-nav: #0E161B;
+@color-text-body: #BDC3C7;
+
+nav {
+        /*border-right: 5px solid;
+        border-right-color: #152028;*/
+        background: @color-bg-nav;
+        width: 80px;
+        min-width: 80px;
+        height: 100%;
+        overflow-y: auto;
+
+        a {
+            height: 80px; 
+            font-size: 10px; 
+            color: @color-text-body;
+            text-decoration: none !important;
+            text-transform: uppercase;
+            text-align: center;
+            display: block;
+
+            img {
+                margin: 18px 28px 5px;
+                width: 24px;
+            }         
+
+            &.active, &:hover, &:visited {
+                background: #152028;
+                color: @color-text-body;
+            }
+        }
+
+}
